@@ -35,9 +35,9 @@ module.exports = router;
 
 function recursivo(m, n)
 {
-    if (m = n)
+    if (m>n)
     {
-        return (m + 1 / m);
+        return 1;
     }
     else
     {
